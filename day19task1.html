@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav{
+            width:30%;
+            height:30%;
+            display:flex;
+            margin:20px;
+            padding:20px;
+            background-color: bisque;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: center;
+            float: left;
+        }
+        a{
+            text-decoration: none;
+            font-size: larger;
+            color:black;
+        }
+        #nav a{
+            background-color: paleturquoise ;
+            border: 1px dashed black;
+            padding-top:20px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            margin:10px;
+        }
+        #book{
+        height:400px;
+        width:600px;
+        margin:40px;
+        float:left;
+       border: 1px solid black;
+        overflow: scroll;
+        padding: 40px;
+        }
+        #book .hiden{
+              display: none;
+        }
+
+         #book .hiden:target{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="#one">Section-1</a>
+        <a href="#two" >Section-2</a>
+        <a href="#three" >Section-3</a>
+        <a href="#four" >Section-4</a>
+        <a href="#five" >Section-5</a>
+        <a href="#six" >Section-6</a>
+        <a href="#seven">Section-7</a>
+        
+    </div>
+    <div id="book"> 
+        <div id="one" class="hiden">
+            <h1>THIS IS SECTION-1</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas quidem nam consequuntur sapiente aspernatur alias itaque, nostrum ab eaque quisquam officia suscipit odit deserunt consequatur. Enim aperiam repellat est?
+        </div>
+        <div id="two" class="hiden">
+            <H1>THIS IS SECTION-2</H1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est quisquam iste eaque! Amet sequi illo voluptas? Ea a non culpa, delectus incidunt, neque quidem molestiae ad aliquid iure magnam.
+        </div>
+        <div id="three" class="hiden">
+            <h1>THIS IS SECTION-3</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas quidem nam consequuntur sapiente aspernatur alias itaque, nostrum ab eaque quisquam officia suscipit odit deserunt consequatur. Enim aperiam repellat est?
+        </div>
+        <div id="four" class="hiden">
+            <H1>THIS IS SECTION-4</H1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est quisquam iste eaque! Amet sequi illo voluptas? Ea a non culpa, delectus incidunt, neque quidem molestiae ad aliquid iure magnam.
+        </div>
+        <div id="five" class="hiden">
+            <h1>THIS IS SECTION-5</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas quidem nam consequuntur sapiente aspernatur alias itaque, nostrum ab eaque quisquam officia suscipit odit deserunt consequatur. Enim aperiam repellat est?
+        </div>
+        <div id="six" class="hiden">
+            <H1>THIS IS SECTION-6</H1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est quisquam iste eaque! Amet sequi illo voluptas? Ea a non culpa, delectus incidunt, neque quidem molestiae ad aliquid iure magnam.
+        </div>
+        <div id="seven" class="hiden">
+            <h1>THIS IS SECTION-7</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas quidem nam consequuntur sapiente aspernatur alias itaque, nostrum ab eaque quisquam officia suscipit odit deserunt consequatur. Enim aperiam repellat est?
+        </div>
+    </div>
+</body>
+</html>
